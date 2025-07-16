@@ -1,71 +1,95 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=19943032&assignment_repo_type=AssignmentRepo)
-# React.js and Tailwind CSS Assignment
+# 📋 PLP Task Manager App
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+A responsive and modern task manager built with **React**, **Vite**, and **Tailwind CSS**. This application allows users to manage tasks efficiently and explore posts from a public API. It showcases component architecture, hooks, state management, API integration, and light/dark theming.
 
-## Assignment Overview
+---
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+## 🚀 Features
 
-## Getting Started
+- ✅ Add, toggle, filter, and delete tasks
+- 💾 LocalStorage persistence using a custom hook
+- 🌗 Light/dark theme switcher via context
+- 🔎 Search and display posts from JSONPlaceholder API
+- 📱 Fully responsive across mobile, tablet, and desktop
+- 🎨 Styled with Tailwind CSS and reusable UI components
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Start the development server:
-   ```
-   npm run dev
-   ```
+---
 
-## Files Included
+## 🏗️ Technologies Used
 
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
+| Technology      | Purpose                        |
+|----------------|---------------------------------|
+| React           | Frontend framework              |
+| Vite            | Development and bundling tool   |
+| Tailwind CSS    | Utility-first styling           |
+| React Router    | Page routing                    |
+| JSONPlaceholder | External API integration        |
 
-## Requirements
+---
 
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
+## 📁 Folder Structure
 
-## Project Structure
+src/ ├── components/ # Reusable UI components ├── context/ # Theme context provider ├── pages/ # Home, Tasks, and Posts pages ├── utils/ # Custom hooks (useLocalStorage) ├── App.jsx # Main routing logic ├── main.jsx # App entry point └── index.css # Tailwind styles
 
-```
-src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
-```
+---
 
-## Submission
+## 🧪 Screenshots
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+> Make sure to add actual screenshots in your repository under a `screenshots/` folder.
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+| Task View | API View |
+|-----------|----------|
+| ![Tasks](./screenshots/tasks.png) | ![Posts](./screenshots/posts.png) |
 
-## Resources
+---
 
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+## 🛠️ Setup Instructions
+
+### Prerequisites
+- Node.js v18 or higher
+- GitHub account
+- Vercel account for deployment
+
+### Installation
+
+```bash
+git clone https://github.com/your-username/plp-task-manager.git
+cd plp-task-manager
+npm install
+npm run dev
+
+Visit http://localhost:5173 to view the app locally.
+Deployment
+This app is live at: 👉 https://your-vercel-url.vercel.app
+
+You can deploy via Vercel:
+
+Sign in at vercel.com
+
+Import your GitHub repo
+
+Select Vite as the framework
+
+Use npm run build and dist/ as output directory
+
+Deploy and grab the link!
+
+📖 Assignment Criteria
+✅ Completed tasks include:
+
+Full React component architecture
+
+State and context management with hooks
+
+External API integration with loading/error states
+
+Theming and responsiveness via Tailwind CSS
+
+GitHub-hosted code with frequent commits
+
+README with setup, screenshots, and deployment
+
+👨‍🎓 Author
+Anifar Mariba Student @ Power Learn Project GitHub: @anifar-se
+
+
